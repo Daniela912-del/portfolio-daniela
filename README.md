@@ -1,6 +1,6 @@
 # Portfólio Daniela Menezes Guimarães
 
-Portfólio profissional de Daniela Menezes Guimarães, Desenvolvedora Backend e graduada em Análise e Desenvolvimento de Sistemas.
+Portfólio profissional de Daniela Menezes Guimarães, graduada em Análise e Desenvolvimento de Sistemas, com foco em back-end e conhecimentos em front-end, dados e suporte.
 
 ## Objetivo
 
@@ -21,9 +21,11 @@ portfolio-daniela/
 
 ## Conteúdo
 
-- Perfil profissional e objetivo de carreira em backend.
+- Perfil profissional e objetivo de carreira em back-end.
 - Formação em Análise e Desenvolvimento de Sistemas.
-- Capacitação em Service Desk e Freelancer Web.
+- Aceleração Randstad - Service Desk, realizada pela DIO em parceria com a Randstad.
+- Experiência prática com manutenção e atualização de uma loja virtual em WordPress, em projeto freelancer realizado por meio da plataforma 99Freelas.
+- Cursos complementares de Python, Power BI, HTML, CSS, JavaScript e TypeScript pela Udemy, OneBitCode e DIO.
 - Competências em Node.js, TypeScript, APIs REST, Fastify, Prisma, PostgreSQL, SQL, JavaScript, HTML, CSS, Sass, Bootstrap, WordPress, Power BI e suporte técnico.
 - Projetos com links para GitHub e demonstrações online.
 - Currículo em PDF disponível para download.
