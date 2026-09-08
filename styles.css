@@ -116,6 +116,10 @@ h2 { margin: 7px 0 0; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.05; le
 .projects { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .project { position: relative; display: flex; flex-direction: column; min-height: 270px; padding: 26px 24px 24px; border-radius: 8px; overflow: hidden; text-align: center; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
 .project:hover { transform: translateY(-5px); border-color: rgba(105, 169, 255, .5); box-shadow: 0 22px 54px rgba(0, 0, 0, .3); }
+.project--featured { background: linear-gradient(180deg, rgba(17, 31, 52, .96), rgba(17, 31, 52, .88)); border-color: rgba(105, 169, 255, .72); box-shadow: 0 24px 58px rgba(0, 0, 0, .28); }
+.project--featured::before { background: linear-gradient(90deg, var(--blue), var(--plum)); }
+.project--featured .project-top h3 { font-size: 1.32rem; }
+.project--featured .project-top span { color: var(--warm); }
 .project h3 { transition: color .2s ease; }
 .project:hover h3 { color: var(--blue-light); }
 .project::before { content: ""; position: absolute; inset: 0 0 auto; height: 4px; background: var(--blue); }
