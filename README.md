@@ -1,55 +1,102 @@
 # Portfólio Daniela Menezes Guimarães
 
-Portfólio profissional de Daniela Menezes Guimarães, graduada em Análise e Desenvolvimento de Sistemas, com foco em back-end e conhecimentos em front-end, dados e suporte.
+Portfólio profissional de Daniela Menezes Guimarães, Analista de Sistemas Júnior, com foco em desenvolvimento, integração de sistemas, dados, suporte técnico e projetos práticos.
 
-## Objetivo
+## Sobre o projeto
 
-Apresentar a formação, as competências técnicas, os projetos práticos e a experiência profissional de forma clara para recrutadores e empresas de diferentes setores.
+Este repositório contém o código do meu portfólio pessoal, desenvolvido em HTML e CSS, com o objetivo de apresentar:
+
+- formação acadêmica;
+- habilidades técnicas;
+- projetos desenvolvidos;
+- experiências complementares;
+- links de contato e currículo.
 
 ## Estrutura do projeto
 
 ```text
 portfolio-daniela/
-├── index.html                              # Conteúdo e estrutura semântica
-├── styles.css                              # Identidade visual e responsividade
+├── index.html                              # Estrutura semântica e conteúdo da página
+├── styles.css                              # Estilos, layout responsivo e identidade visual
 ├── assets/
 │   ├── documentos/
 │   │   └── curriculo-daniela-menezes.pdf   # Currículo para download
-│   └── imagens/                            # Imagens futuras dos projetos
-└── README.md                               # Documentação
+│   └── imagens/
+│       ├── preview.svg                     # Imagem de prévia para compartilhamento social
+│       └── ...                             # Outras imagens do projeto
+├── README.md                               # Documentação do projeto
+└── .gitignore                              # Arquivos ignorados pelo Git
 ```
 
-## Conteúdo
+## Conteúdo principal
 
-- Perfil profissional e objetivo de carreira em back-end.
+- Perfil profissional com foco em análise, desenvolvimento e suporte técnico.
 - Formação em Análise e Desenvolvimento de Sistemas.
 - Aceleração Randstad - Service Desk, realizada pela DIO em parceria com a Randstad.
-- Experiência prática com manutenção e atualização de uma loja virtual em WordPress, em projeto freelancer realizado por meio da plataforma 99Freelas.
-- Cursos complementares de Python, Power BI, HTML, CSS, JavaScript e TypeScript pela Udemy, OneBitCode e DIO.
+- Experiência prática em manutenção e atualização de loja virtual em WordPress.
+- Cursos complementares em Python, Power BI, HTML, CSS, JavaScript e TypeScript.
 - Competências em Node.js, TypeScript, APIs REST, Fastify, Prisma, PostgreSQL, SQL, JavaScript, HTML, CSS, Sass, Bootstrap, WordPress, Power BI e suporte técnico.
 - Projetos com links para GitHub e demonstrações online.
 - Currículo em PDF disponível para download.
-- Contato por e-mail, telefone, LinkedIn, GitHub e site pessoal.
+- Seções de contato por e-mail, telefone, LinkedIn e GitHub.
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- TypeScript
+- APIs REST
+- SQL
+- Power BI
+- WordPress
 
 ## Como executar
 
-O projeto não exige instalação de dependências ou processo de build.
+O projeto é estático e não exige dependências externas.
 
-1. Abra o `index.html` diretamente no navegador; ou
-2. use a extensão Live Server no VS Code para desenvolvimento local.
+### Opção 1
+Abra o arquivo `index.html` diretamente no navegador.
 
-## Boas práticas para atualizar
+### Opção 2
+Use uma extensão como Live Server no VS Code.
 
-- Edite o conteúdo da página somente no `index.html`.
-- Centralize cores, tipografia, espaçamentos e responsividade no `styles.css`.
-- Mantenha documentos em `assets/documentos/` e imagens em `assets/imagens/`.
-- Teste os links de projetos, currículo e contato antes de publicar.
-- Otimize imagens para a web e use nomes de arquivos simples, sem espaços ou acentos.
+### Opção 3
+Se preferir, rode um servidor local com:
+
+```bash
+python -m http.server 8000
+```
+
+Em seguida, acesse `http://localhost:8000`.
+
+## Boas práticas para manter o projeto
+
+- Atualize o conteúdo principal apenas no `index.html`.
+- Centralize estilos e responsividade no `styles.css`.
+- Mantenha os documentos em `assets/documentos/`.
+- Use imagens em `assets/imagens/` com nomes simples e sem espaços.
+- Teste links de projetos, currículo e contato antes de publicar.
 
 ## Publicação
 
-O site pode ser publicado em GitHub Pages, Vercel ou Netlify. Como é um projeto estático, basta enviar os arquivos mantendo a mesma estrutura de pastas.
+Este projeto pode ser publicado facilmente em plataformas como:
+
+- GitHub Pages
+- Vercel
+- Netlify
+
+Como é um site estático, basta enviar os arquivos mantendo a estrutura atual.
+
+## Atualizações recentes
+
+- Ajuste das tags meta para melhor SEO.
+- Inclusão de preview social (`og:image`).
+- Organização do README para refletir o estado atual do portfólio.
 
 ## Contato
 
-[dannye.menezes@hotmail.com](mailto:dannye.menezes@hotmail.com)
+- E-mail: [dannye.menezes@hotmail.com](mailto:dannye.menezes@hotmail.com)
+- LinkedIn: [Daniela Menezes Guimarães](https://www.linkedin.com/in/danielamenezesguimar%C3%A3es/)
+- GitHub: [Daniela912-del](https://github.com/Daniela912-del)
