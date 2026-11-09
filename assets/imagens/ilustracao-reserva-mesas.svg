@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Ilustração de reserva de mesas em restaurante</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172741"/><stop offset="1" stop-color="#30264a"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="970" cy="100" r="220" fill="#b19cff" opacity=".1"/>
+  <text x="600" y="130" text-anchor="middle" fill="#ffc86b" font-family="sans-serif" font-size="24" letter-spacing="5">RESTAURANTE</text>
+  <text x="600" y="190" text-anchor="middle" fill="#e9f2ff" font-family="sans-serif" font-size="38" font-weight="700">Reserva de mesas</text>
+  <g stroke="#9bc9ff" stroke-width="5">
+    <circle cx="350" cy="330" r="72" fill="#213958"/><circle cx="600" cy="330" r="72" fill="#174438" stroke="#83d8c1"/><circle cx="850" cy="330" r="72" fill="#213958"/>
+  </g>
+  <g fill="#e9f2ff" font-family="sans-serif" font-size="25" font-weight="700" text-anchor="middle">
+    <text x="350" y="339">Mesa 01</text><text x="600" y="339">Mesa 02</text><text x="850" y="339">Mesa 03</text>
+  </g>
+  <g font-family="sans-serif" font-size="18" text-anchor="middle">
+    <text x="350" y="435" fill="#9cafc8">Disponível</text><text x="600" y="435" fill="#83d8c1">Reservada</text><text x="850" y="435" fill="#9cafc8">Disponível</text>
+  </g>
+  <rect x="453" y="490" width="294" height="48" rx="14" fill="#69a9ff"/>
+  <text x="600" y="521" text-anchor="middle" fill="#07101e" font-family="sans-serif" font-size="19" font-weight="700">PROJETO EM CONSTRUÇÃO</text>
+</svg>
