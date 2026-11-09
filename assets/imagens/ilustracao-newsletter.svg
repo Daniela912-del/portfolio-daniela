@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Ilustração de inscrição em newsletter</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#112e3a"/><stop offset="1" stop-color="#172741"/></linearGradient><linearGradient id="mail"><stop stop-color="#83d8c1"/><stop offset="1" stop-color="#69a9ff"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="950" cy="120" r="220" fill="#83d8c1" opacity=".09"/>
+  <rect x="170" y="100" width="860" height="400" rx="28" fill="#0b1424" stroke="#35516a" stroke-width="3"/>
+  <path d="M515 198h170a24 24 0 0 1 24 24v132a24 24 0 0 1-24 24H515a24 24 0 0 1-24-24V222a24 24 0 0 1 24-24Z" fill="#172741" stroke="url(#mail)" stroke-width="8"/>
+  <path d="m502 224 98 77 98-77" fill="none" stroke="url(#mail)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <text x="600" y="421" text-anchor="middle" fill="#e9f2ff" font-family="sans-serif" font-size="34" font-weight="700">Fique por dentro</text>
+  <rect x="330" y="447" width="405" height="42" rx="12" fill="#172741"/>
+  <text x="353" y="475" fill="#9cafc8" font-family="sans-serif" font-size="18">seuemail@exemplo.com</text>
+  <rect x="750" y="447" width="125" height="42" rx="12" fill="#83d8c1"/>
+  <text x="812" y="475" text-anchor="middle" fill="#0b1424" font-family="sans-serif" font-size="17" font-weight="700">Cadastrar</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Ilustração de API de encurtamento de links</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c33"/><stop offset="1" stop-color="#263c65"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#69a9ff"/><stop offset="1" stop-color="#b19cff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="980" cy="90" r="220" fill="#69a9ff" opacity=".08"/>
+  <rect x="150" y="106" width="900" height="390" rx="26" fill="#0b1424" stroke="#49618a" stroke-width="3"/>
+  <circle cx="194" cy="150" r="9" fill="#ffc86b"/><circle cx="224" cy="150" r="9" fill="#83d8c1"/><circle cx="254" cy="150" r="9" fill="#b19cff"/>
+  <text x="192" y="225" fill="#9cafc8" font-family="monospace" font-size="24">POST /links</text>
+  <rect x="192" y="252" width="816" height="88" rx="14" fill="#172741" stroke="#334c71" stroke-width="2"/>
+  <text x="224" y="307" fill="#9bc9ff" font-family="monospace" font-size="24">https://example.com/long-url</text>
+  <path d="M470 365v48m-17-17 17 17 17-17" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <rect x="192" y="432" width="816" height="42" rx="12" fill="#172741"/>
+  <text x="224" y="461" fill="#83d8c1" font-family="monospace" font-size="21">https://short.ly/a8K2</text>
+  <text x="866" y="461" fill="#ffc86b" font-family="monospace" font-size="18">201 CREATED</text>
+</svg>

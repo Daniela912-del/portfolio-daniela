@@ -21,6 +21,7 @@ html { scroll-behavior: smooth; }
 section { scroll-margin-top: 84px; }
 body {
   margin: 0;
+  min-width: 320px;
   color: var(--ink);
   background: var(--paper);
   font-family: "Space Grotesk", sans-serif;
@@ -55,6 +56,7 @@ nav { min-height: 72px; display: flex; align-items: center; justify-content: spa
 .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--warm); }
 h1 { max-width: 800px; margin: 18px 0 0; font-size: clamp(3rem, 7vw, 6.2rem); line-height: .96; letter-spacing: -.06em; animation: type-reveal 1.8s steps(24, end) infinite alternate; }
 .gradient { color: var(--blue); }
+.profile-photo { display: block; width: 132px; height: 132px; margin-top: 20px; border: 3px solid var(--blue); border-radius: 50%; object-fit: cover; box-shadow: 0 12px 32px rgba(0, 0, 0, .3); }
 .hero p { max-width: 680px; margin: 26px 0 0; color: var(--muted); font-size: 1.12rem; line-height: 1.75; }
 .hero > .container { position: relative; }
 .hero-grid::before { content: ""; display: block; width: 58px; height: 3px; margin-bottom: 24px; background: var(--plum); }
@@ -120,6 +122,8 @@ h2 { margin: 7px 0 0; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.05; le
 .project--featured::before { background: linear-gradient(90deg, var(--blue), var(--plum)); }
 .project--featured .project-top h3 { font-size: 1.32rem; }
 .project--featured .project-top span { color: var(--warm); }
+.project-image { display: block; width: calc(100% + 48px); height: 240px; margin: -26px -24px 22px; border-bottom: 1px solid var(--line); background: #101b2c; object-fit: cover; object-position: center top; }
+.project-image[src$=".svg"] { object-fit: contain; padding: 12px; }
 .project h3 { transition: color .2s ease; }
 .project:hover h3 { color: var(--blue-light); }
 .project::before { content: ""; position: absolute; inset: 0 0 auto; height: 4px; background: var(--blue); }
@@ -163,6 +167,8 @@ h2 { margin: 7px 0 0; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.05; le
 .contact-card .section-kicker { color: var(--warm); }
 .contact-card p { max-width: 650px; color: #dce7fa; }
 .contact-card .btn-primary { color: var(--blue-dark); background: var(--sky); border-color: var(--sky); }
+.contact-card .btn-whatsapp { color: #062b17; background: #45d483; border-color: #45d483; box-shadow: 0 8px 24px rgba(37, 211, 102, .3); }
+.contact-card .btn-whatsapp:hover { color: #062b17; background: #70e5a0; border-color: #70e5a0; box-shadow: 0 12px 28px rgba(37, 211, 102, .4); }
 .contact-card .btn-secondary { color: #fff; border-color: rgba(255,255,255,.45); }
 .contact-card .btn-primary:hover { color: var(--blue-dark); background: var(--warm); border-color: var(--warm); }
 .contact-card .btn-secondary:hover { color: #fff; background: rgba(255, 255, 255, .12); border-color: var(--warm); }
@@ -186,16 +192,30 @@ footer { padding: 28px 0 40px; border-top: 1px solid var(--line); color: var(--m
 @media (max-width: 900px) { .hero-grid, .about-grid, .contact { grid-template-columns: 1fr; } .skill-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 700px) {
   .container { width: min(var(--max), calc(100% - 28px)); }
-  .nav-links { display: none; }
+  nav { flex-direction: column; align-items: stretch; gap: 0; padding: 10px 0 6px; }
+  .brand { padding: 0 6px 5px; }
+  .nav-links { display: flex; width: 100%; gap: 4px; overflow-x: auto; justify-content: flex-start; scrollbar-width: none; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { flex: 0 0 auto; padding: 7px 9px; font-size: .84rem; }
   h1 { font-size: clamp(2.65rem, 13vw, 4.2rem); }
+  .profile-photo { width: 108px; height: 108px; }
   .hero { min-height: auto; padding: 70px 0 52px; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; }
   .hero-card, .panel, .contact-card { padding: 24px; }
   section { padding: 70px 0; }
   .projects, .skill-grid { grid-template-columns: 1fr; }
+  .project-image { height: 210px; }
   .timeline-item { grid-template-columns: 1fr; gap: 7px; }
   .course-item { grid-template-columns: 1fr; gap: 2px; }
   .contact-links { transform: none; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 380px) {
+  .container { width: calc(100% - 24px); }
+  h1 { font-size: clamp(2.3rem, 12vw, 3rem); }
+  h2 { font-size: clamp(1.8rem, 9vw, 2.4rem); }
+  .project { padding-right: 18px; padding-left: 18px; }
+  .project-image { width: calc(100% + 36px); margin-right: -18px; margin-left: -18px; }
+  .project-actions { flex-wrap: wrap; gap: 10px; }
 }

@@ -1,6 +1,6 @@
 # Portfólio Daniela Menezes Guimarães
 
-Portfólio profissional de Daniela Menezes Guimarães, Analista de Sistemas Júnior, com foco em desenvolvimento, integração de sistemas, dados, suporte técnico e projetos práticos.
+Portfólio profissional de Daniela Menezes Guimarães, formada em Análise e Desenvolvimento de Sistemas e em construção de trajetória na área de tecnologia. Reúne projetos práticos em Java, Oracle, APIs, back-end e desenvolvimento web.
 
 ## Sobre o projeto
 
@@ -21,9 +21,10 @@ portfolio-daniela/
 ├── assets/
 │   ├── documentos/
 │   │   └── curriculo-daniela-menezes.pdf   # Currículo para download
-│   └── imagens/
-│       ├── preview.svg                     # Imagem de prévia para compartilhamento social
-│       └── ...                             # Outras imagens do projeto
+│   ├── cafe/                               # Captura do projeto Cardápio Digital
+│   └── imagens/                            # Capturas dos projetos e imagens de prévia
+├── robots.txt                              # Orientações para mecanismos de busca
+├── sitemap.xml                             # Mapa do site para indexação
 ├── README.md                               # Documentação do projeto
 └── .gitignore                              # Arquivos ignorados pelo Git
 ```
@@ -32,11 +33,13 @@ portfolio-daniela/
 
 - Perfil profissional com foco em análise, desenvolvimento e suporte técnico.
 - Formação em Análise e Desenvolvimento de Sistemas.
-- Aceleração Randstad - Service Desk, realizada pela DIO em parceria com a Randstad.
+- Aceleração Randstad — Service Desk, realizada pela DIO em parceria com a Randstad.
 - Experiência prática em manutenção e atualização de loja virtual em WordPress.
-- Cursos complementares em Python, Power BI, HTML, CSS, JavaScript e TypeScript.
-- Competências em Node.js, TypeScript, APIs REST, Fastify, Prisma, PostgreSQL, SQL, JavaScript, HTML, CSS, Sass, Bootstrap, WordPress, Power BI e suporte técnico.
-- Projetos com links para GitHub e demonstrações online.
+- Estudos atuais em Java e Oracle Database, com interesse em desenvolvimento back-end.
+- Projetos em Java, incluindo o desafio da Máquina de Banho para Pets da DIO em parceria com o Itaú, e projetos web com Node.js, TypeScript e APIs REST.
+- Cursos complementares em front-end, Python, SQL, Power BI, WordPress e TypeScript.
+- Conhecimentos e ferramentas: Java, Oracle Database, Node.js, TypeScript, APIs REST, Fastify, Prisma, PostgreSQL, SQL, JavaScript, HTML, CSS, Sass, Bootstrap, WordPress e Power BI.
+- Projetos com capturas de tela, links para o GitHub e demonstrações online quando disponíveis.
 - Currículo em PDF disponível para download.
 - Seções de contato por e-mail, telefone, LinkedIn e GitHub.
 
@@ -45,12 +48,21 @@ portfolio-daniela/
 - HTML5
 - CSS3
 - JavaScript
+- Java
+- Oracle Database
 - Node.js
 - TypeScript
 - APIs REST
 - SQL
 - Power BI
 - WordPress
+
+## SEO e responsividade
+
+- Metadados para buscadores e compartilhamento em redes sociais (Open Graph e Twitter Cards).
+- Dados estruturados de perfil profissional em JSON-LD.
+- `robots.txt` e `sitemap.xml` apontam para o portfólio publicado na Vercel.
+- Layout responsivo para dispositivos móveis, tablets e desktops.
 
 ## Como executar
 
@@ -92,7 +104,9 @@ Como é um site estático, basta enviar os arquivos mantendo a estrutura atual.
 ## Atualizações recentes
 
 - Ajuste das tags meta para melhor SEO.
-- Inclusão de preview social (`og:image`).
+- Inclusão de prévia social em JPEG (`og:image`) e dados estruturados.
+- Atualização de Java e Oracle Database nos estudos e tecnologias.
+- Inclusão de capturas de tela nos projetos e melhoria da navegação em dispositivos móveis.
 - Organização do README para refletir o estado atual do portfólio.
 
 ## Contato
